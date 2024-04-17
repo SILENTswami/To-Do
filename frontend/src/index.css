@@ -1,0 +1,54 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+div {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+/* Different colors for different buttons */
+button:nth-child(1) {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button:nth-child(2) {
+    background-color: #f44336; /* Red */
+    color: white;
+}
